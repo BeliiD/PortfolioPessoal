@@ -1,0 +1,80 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Container Principal*/
+.heroContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 5%;
+    min-height: 80vh;
+    gap: 1rem;
+    background-color: #fcf6e9;
+    color: #333333;
+
+}
+
+.heroText {
+  text-align: center;
+}
+
+.heroText h1 {
+
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #192e73;
+
+}
+
+.heroText h2 {
+
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: #0d0c28;
+    margin-bottom: 0;
+
+}
+
+.heroBtns {
+
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.btnProjetos, .btnContato {
+
+    background-color: #192e73;
+    color: #ffffff;
+    padding: 1.2rem 1.2rem;
+    text-decoration: none;
+    font-weight: 710;
+    font-size: 20px;
+    border: 2px solid #333333;
+    border-radius: 20px;
+    width: 200px;;
+    text-align: center;
+    transition: transform 0.3s ease
+
+}
+
+.btnProjetos:hover, .btnContato:hover {
+
+    transform: scale(1.08);
+
+}
+
+.heroImagem img {
+
+    width: 100%;
+    max-width: 400px;
+    max-height: 50vh;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.4));
+    
+}
