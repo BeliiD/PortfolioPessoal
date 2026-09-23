@@ -1,0 +1,70 @@
+/* Container principal da secção */
+.sobreContainer {
+  padding: 4rem 10% 5rem 10%; /* Ajustei um pouco o topo para equilibrar o espaço */
+  background-color: #fcf6e9;
+  display: flex;
+  flex-direction: column; /* FUNDAMENTAL: Empilha a linha e o conteúdo */
+  justify-content: center; 
+  align-items: center;
+}
+
+.linhaDivisoria {
+  width: 80vw;
+  height: 3px;
+  /* O gradiente é transparente no início (0%), fica totalmente azul nos 15%, 
+     continua totalmente azul até os 85%, e só então volta a ficar transparente nos 100% */
+  background: linear-gradient(
+    to right, 
+    transparent 0%, 
+    #192e73 15%, 
+    #192e73 85%, 
+    transparent 100%
+  );
+  margin-bottom: 4rem;
+  /* Certifique-se de apagar a linha "opacity: 0.5;" que estava aqui antes! */
+}
+
+/* Caixa que limita a largura do texto */
+.sobreConteudo {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  /* Alinha o bloco todo à direita dentro do container */
+  align-items: flex-start; 
+}
+
+/* Título <h2> */
+.tituloSecao {
+  font-size: 3.5rem; /* Título significativamente maior */
+  font-weight: 800;  /* Espessura extra (Extra Bold) */
+  color: #192e73; 
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: center; 
+  align-self: center;
+}
+
+/* Parágrafos */
+.sobreTextos p {
+  font-size: 1.15rem;
+  font-weight: 500; /* Letras um pouco mais grossas (Medium) */
+  line-height: 1.8; 
+  color: #0d0c28; 
+  margin-bottom: 1.5rem;
+  text-align: left; /* Texto justificado/alinhado para a direita */
+}
+
+/* Responsividade: Ajustes para ecrãs de telemóvel */
+@media (max-width: 768px) {
+  .sobreContainer {
+    padding: 4rem 5%; 
+  }
+
+  .tituloSecao {
+    font-size: 2.5rem;
+  }
+
+  .sobreTextos p {
+    font-size: 1rem;
+  }
+}

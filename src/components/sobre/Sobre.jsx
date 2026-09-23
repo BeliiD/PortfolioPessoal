@@ -5,6 +5,9 @@ function Sobre() {
     return(
 
         <section className="sobreContainer" id="sobre">
+
+            <div className="linhaDivisoria"></div>
+
             <div className="sobreConteudo">
                 <h2 className="tituloSecao"> Sobre Mim</h2>
 
