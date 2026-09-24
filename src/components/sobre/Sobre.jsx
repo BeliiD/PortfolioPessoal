@@ -18,7 +18,12 @@ function Sobre() {
                         como Java, Python, React e Node.js. 
                     </p>
                     <p>
-                        Minha experiência prática se baseia em projetos pessoais desenvolvidos para aprimorar minhas habilidades.
+                        Minha experiência prática se baseia em projetos pessoais de algoritmos, estrutura de dados e engenharia de software, 
+                        desenvolvidos para aprimorar minhas habilidades em lógica, desenvolvimento de algoritmos e arquitetura de sistemas.
+                        Além disso, tenho experiência como bolsista de iniciação científica no projeto COSAIC (Compartilhando Saberes e Inovação na Cibercultura), atuando
+                        em desenvolvimento web, gestão de projetos e fluxo de trabalho.
+                    </p>
+                    <p>
                         Meu objetivo é continuar criando aplicações completas e escaláveis, sempre buscando evoluir para me consolidar
                         como um desenvolvedor full-stack e iniciar minha trajetória no mercado de trabalho, agregando valor real a projetos tecnológicos.
                     </p>
